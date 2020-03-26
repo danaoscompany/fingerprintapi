@@ -2,7 +2,7 @@
 
 include 'db.php';
 
-$admimID = intval($_POST['admin_id']);
+$adminID = intval($_POST['admin_id']);
 $name = $_POST['name'];
 $address = $_POST['address'];
 $birthplace = $_POST['birth_place'];
